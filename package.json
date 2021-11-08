@@ -1,0 +1,30 @@
+{
+  "name": "create-ng-client",
+  "version": "0.0.1",
+  "description": "Tool for generating Angular client lib from OpenAPI spec",
+  "bin": "./index.js",
+  "scripts": {
+    "format": "prettier --write \"*.{js,json}\"",
+    "format:check": "prettier --check \"*.{js,json}\"",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdafanasev/create-ng-client.git"
+  },
+  "author": "Maxim Afanasev <max@afsv.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdafanasev/create-ng-client/issues"
+  },
+  "homepage": "https://github.com/mdafanasev/create-ng-client#readme",
+  "volta": {
+    "node": "17.0.0",
+    "npm": "8.1.0"
+  },
+  "devDependencies": {
+    "@afsv/eslint-config-base": "^0.1.1",
+    "eslint": "8.2.0",
+    "prettier": "2.4.1"
+  }
+}
