@@ -1,6 +1,6 @@
 {
   "name": "create-ng-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tool for generating Angular client lib from OpenAPI spec",
   "bin": "./index.js",
   "scripts": {
