@@ -2,7 +2,7 @@
   "name": "create-ng-client",
   "version": "0.0.2",
   "description": "Tool for generating Angular client lib from OpenAPI spec",
-  "bin": "./index.js",
+  "bin": "./main.js",
   "scripts": {
     "format": "prettier --write \"*.{js,json}\"",
     "format:check": "prettier --check \"*.{js,json}\"",
