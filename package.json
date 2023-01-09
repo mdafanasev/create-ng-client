@@ -25,7 +25,7 @@
   "devDependencies": {
     "@afsv/eslint-config-base": "^0.1.2",
     "eslint": "8.2.0",
-    "prettier": "2.4.1"
+    "prettier": "2.8.2"
   },
   "dependencies": {
     "@apidevtools/json-schema-ref-parser": "^9.0.9",
